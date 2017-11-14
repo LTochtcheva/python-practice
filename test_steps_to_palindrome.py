@@ -1,5 +1,9 @@
 # to run tests $pytest
-#count = 0;
+
+
+# Write a method palindrome_chain_length which takes a positive number and returns the number of special steps needed to obtain a palindrome. The special step is: "reverse the digits, and add to the original number". If the resulting number is not a palindrome, repeat the procedure with the sum until the resulting number is a palindrome.
+
+# If the input number is already a palindrome, the number of steps is 0.
 def palindrome_chain_length(num):
     print('num: ',num)
     count = 0
